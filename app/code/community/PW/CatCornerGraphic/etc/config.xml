@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+	  <PW_CatCornerGraphic>
+	    <version>1.0.0</version>
+	  </PW_CatCornerGraphic>
+	</modules>
+	<global>
+	<blocks>
+		<catcornergraphic>
+			<class>PW_CatCornerGraphic_Catalog_Block</class>
+		</catcornergraphic>
+		<catalog>
+			<rewrite>
+					<category_view>PW_CatCornerGraphic_Catalog_Block_Category_View</category_view>
+			</rewrite>
+		</catalog>
+	</blocks>
+	</global>
+</config> 
